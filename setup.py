@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(name='python-markdown-generator',
       version='0.1',
@@ -8,5 +8,5 @@ setup(name='python-markdown-generator',
       author='Niklas Saari',
       author_email='niklas.saari@oulu.fi',
       license='Apache-2.0',
-      packages=['markdowngenerator'],
+      packages=find_packages(),
       zip_safe=False)
